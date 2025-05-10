@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Flag</title>
+    <style>
+        .flag {
+            width: 600px;
+            height: 400px;
+            margin: 50px auto;
+            border: 2px solid black;
+        }
+        .saffron {
+            width: 100%;
+            height: 33.33%;
+            background-color: #FF9933;
+        }
+        .white {
+            width: 100%;
+            height: 33.33%;
+            background-color: white;
+            position: relative;
+        }
+        .green {
+            width: 100%;
+            height: 33.33%;
+            background-color: #138808;
+        }
+        .chakra {
+            width: 100px;
+            height: 100px;
+            border: 2px solid navy;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .chakra::before {
+            content: "";
+            width: 2px;
+            height: 100px;
+            background: navy;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%) rotate(15deg);
+        }
+        .chakra::after {
+            content: "";
+            width: 2px;
+            height: 100px;
+            background: navy;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%) rotate(-15deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="saffron"></div>
+        <div class="white">
+            <div class="chakra"></div>
+        </div>
+        <div class="green"></div>
+    </div>
+</body>
+</html>
