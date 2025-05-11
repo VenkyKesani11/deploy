@@ -1,9 +1,28 @@
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-clean-plugin</artifactId>
-            <version>3.0.0</version>
-        </plugin>
-    </plugins>
-</build>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Add these missing details -->
+    <groupId>com.example</groupId> <!-- Your project group name (like a company name) -->
+    <artifactId>indian-flag</artifactId> <!-- Your project name (already seen in logs) -->
+    <version>1.0-SNAPSHOT</version> <!-- Your project version -->
+
+    <!-- Optional: Add packaging type if needed -->
+    <packaging>jar</packaging>
+
+    <!-- Optional: Add any dependencies your project needs -->
+    <dependencies>
+        <!-- Example: If your project uses any libraries, add them here -->
+    </dependencies>
+
+    <!-- Optional: Add build plugins if needed -->
+    <build>
+        <plugins>
+            <!-- Use an older maven-clean-plugin as discussed before -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>
