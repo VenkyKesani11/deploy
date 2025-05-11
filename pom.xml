@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class IndianFlagApplication {
+
     public static void main(String[] args) {
         SpringApplication.run(IndianFlagApplication.class, args);
     }
